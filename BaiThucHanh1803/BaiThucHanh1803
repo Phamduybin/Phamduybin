@@ -1,0 +1,23 @@
+//khai báo lớp hình tròn
+class HinhTron {
+    final float PI = 3.14f;
+    float r;
+    float cv;
+    float dt;
+void nhapBanKinh()
+    System.out.println("Hãy nhập vào Bán kính Hình tròn:")
+    scanner.nextFloat();
+}
+void tinhChuvi() {
+    cv = 2*PI*r;
+}    
+void tinhDienTich() {    
+dt = PI*r*r;
+}
+void inChuvi() {
+    System.out.println("Chu vi Hình tròn: " + cv);
+}
+void inDienTich(){
+    System.out.println("Diện tích Hình tròn: " + dt);
+}
+}
