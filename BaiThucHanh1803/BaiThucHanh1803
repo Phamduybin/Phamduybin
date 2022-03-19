@@ -21,3 +21,31 @@ void inDienTich(){
     System.out.println("Diện tích Hình tròn: " + dt);
 }
 }
+package main;
+
+import shapes.HinhChuNhat;
+import shapes.HinhTron;
+
+public class MainClass {
+    
+    public static void main(String[] args) {
+        HinhTron hinhTron = new HinhTron();
+        HinhChuNhat hinhChuNhat = new HinhChuNhat();
+
+        hinhTron.nhapBanKinh();
+        hinhTron.tinhChuVi();
+        hinhTron.tinhDienTich();
+        hinhtron.inChuVi();
+        hinhtron.inDienTich();
+        
+        System.out.println("\n\n");
+
+        hinhChuNhat.nhapChieuDai();
+        hinhChuNhat.nhapChieuRong();
+        hinhChuNhat.tinhChuVi();
+        hinhChuNhat.tinhDienTich();
+        hinhChuNhat.inChuVi();
+        hinhChuNhat.inDienTich();
+    }
+}
+
